@@ -1,0 +1,33 @@
+{
+  "name": "simple-range-slider",
+  "version": "0.0.2",
+  "description": "A simple implementation of a small range slider with pure Javascript",
+  "main": "lib/simple-range-slider.js",
+  "license": "MIT",
+  "author": "Behnam Azimi",
+  "homepage": "https://github.com/behnamazimi/simple-range-slider",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/behnamazimi/simple-range-slider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/behnamazimi/simple-range-slider/issues"
+  },
+  "scripts": {
+    "dev": "webpack --watch",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "range",
+    "slider",
+    "data range"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
