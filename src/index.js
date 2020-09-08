@@ -230,7 +230,7 @@ SimpleRangeSlider.prototype.initListeners = function () {
 
     this.slider.addEventListener("mousedown", draggingStart);
     this.slider.addEventListener("touchstart", draggingStart);
-    this.slider.parentElement.addEventListener("mouseup", draggingStop);
+    document.addEventListener("mouseup", draggingStop);
     this.slider.parentElement.addEventListener("touchend", draggingStop);
 
     this.initialized = true;
